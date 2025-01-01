@@ -1,4 +1,14 @@
-/* Turns the user panel green */
-.container_ca50b9 {
-    background: green;
+/* Set the Discord background to a custom image */
+body {
+  background: url('https://i.postimg.cc/3JqcDCyC/Christmas-Tree-Minecraft-Wallpaper-4k-HD-Pc-6170h.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Optional: Customize other areas to blend with the background */
+.theme-dark {
+  background: rgba(0, 0, 0, 0.6); /* Adds slight transparency to make the text readable */
+}
+
+.theme-light {
+  background: rgba(255, 255, 255, 0.6); /* Light theme adjustment */
 }
