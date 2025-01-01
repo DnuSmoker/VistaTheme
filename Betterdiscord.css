@@ -1,14 +1,13 @@
-/* Set the Discord background to a custom image */
+/* ----- Custom Background for Discord ----- */
 body {
-  background: url('https://i.postimg.cc/3JqcDCyC/Christmas-Tree-Minecraft-Wallpaper-4k-HD-Pc-6170h.jpg') no-repeat center center fixed;
-  background-size: cover;
+    background: url('https://i.postimg.cc/3JqcDCyC/Christmas-Tree-Minecraft-Wallpaper-4k-HD-Pc-6170h.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
 }
 
-/* Optional: Customize other areas to blend with the background */
-.theme-dark {
-  background: rgba(0, 0, 0, 0.6); /* Adds slight transparency to make the text readable */
-}
-
-.theme-light {
-  background: rgba(255, 255, 255, 0.6); /* Light theme adjustment */
+/* Optional: Ensures content stays in place */
+html, body {
+    height: 100%;
+    margin: 0;
 }
